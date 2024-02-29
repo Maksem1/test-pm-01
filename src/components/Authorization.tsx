@@ -1,4 +1,3 @@
-import { Button, TextField, Typography } from '@mui/material';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -32,13 +31,13 @@ const Authorization = () => {
 				Войти
 			</button>
 			{errorLoginInfo ? (
-				<Typography
-					sx={{
+				<p
+					style={{
 						margin: 'auto',
 						
 					}}>
 					{errorLoginInfo}
-				</Typography>
+				</p>
 			) : (
 				''
 			)}

@@ -1,9 +1,9 @@
 {
-  "name": "test",
+  "name": "name",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://fthreef.github.io/LabaTest1/",
+  "homepage": "https://maksem1.github.io/test-pm-01/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
